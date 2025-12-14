@@ -40,3 +40,14 @@ cd toptrendxp
 npm install
 npm start
 ```
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 👤 Author
+
+**Ahmed El Herz**  
+[LinkedIn](https://www.linkedin.com/in/elherzahmed/)
