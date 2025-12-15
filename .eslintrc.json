@@ -51,7 +51,8 @@
       "plugins": ["@typescript-eslint", "rxjs"],
       "rules": {
         "@typescript-eslint/no-unused-vars": ["error"],
-        "rxjs/no-ignored-subscription": "off"
+        "rxjs/no-ignored-subscription": "off",
+        "max-lines-per-function": "off"
       }
     }
   ]
