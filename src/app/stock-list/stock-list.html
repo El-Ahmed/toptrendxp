@@ -1,0 +1,13 @@
+@if (stocks$ | async; as stocks) {
+  @if (stocks.length) {
+    <ul>
+      @for (stock of stocks; track stock.symbol) {
+        <li class="card">{{ stock.symbol }}</li>
+      }
+    </ul>
+  } @else {
+    <p>No stocks available</p>
+  }
+} @else {
+  <p>Loading...</p>
+}
